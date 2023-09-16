@@ -1,0 +1,480 @@
+/* All Documnet Css  styling for here */
+
+.navbar ul {
+    display: flex;
+    margin:0;
+    padding: 0;
+    background-color: #0d0d0d;
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
+  
+  .navbar li {
+    float: left;
+    font-size: 18px;
+    margin-left: 15px;
+    list-style-type: none;
+    align-items: center;
+    padding: 0px -21px  0px 2px ;
+  }
+  
+  .navbar li a {
+    padding:14px 16px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #cecccc;
+    text-decoration: none; 
+  } 
+
+  .navbar {
+    position: fixed;
+    align-self: center;
+    padding: 0px 1px 3px 2px;
+    margin-top: 0%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #090808;
+    align-items: center;
+    opacity: 60%;
+  }
+  .navbar li a:hover {
+    
+    color: #ffff;
+    text-decoration: underline;
+  }
+  .fa-brands {
+    font-size: 30px;
+    margin-top: 8px;
+   
+  }
+
+.fa-sharp{
+    font-size: 20px;
+    margin-top: 19px;
+    
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: normal;
+    margin-top: -4%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+  .head{
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+    color: rgb(13, 13, 13);
+    font-weight: 100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-picter a :hover{
+  height: 550px;
+  width: 1100px;
+
+}
+  .more {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: rgb(6, 119, 195);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+  .main-picter {
+    display: flex;
+    justify-content: center; 
+  
+  }
+
+  #Pic {
+    height: 300px;
+    width: 500px;
+    min-width: 200px;
+    min-height: 100px;
+    z-index: 2;
+  }
+
+  .black-box {
+    display: flex;
+    background-image: url();
+   
+    background-color: #df1616;
+    height: 600px;
+    min-height: 300px;
+    min-width: 200px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 66px;
+    width:  100%;
+    align-items: center ;
+    justify-content: center;
+    
+    
+   
+    
+  }
+
+.pro-box {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  
+  width: 80%;
+  position: relative;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  color: inherit;
+
+  
+  
+}
+.fourteen-pro{
+ 
+  font-size: 65px;
+  margin-top: 74%;
+  
+  color: #ffff;
+  font-weight: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.para2 {
+  color: #ffff;
+  font-size: 30px;
+  color: rgb(4, 56, 90);
+  font-weight: bold;  
+  margin-top: -10;
+ 
+  font-family: Arial, Helvetica, sans-serif;
+}
+.para1 {
+  color: white;
+  font-weight: 100;
+  font-size: 30px;
+  margin-top: -3%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+span a{
+  text-decoration: none;
+  color: inherit;
+}
+span .para1.para2.para3:hover {
+  font-size:35px ;
+  color: white;
+}
+.white-box {
+  display: flex;
+  justify-content: center;
+  background-image: url(./Assester-2.png);
+  background-position: center;
+  background-size:cover ;
+  flex-direction: row;
+ 
+  background-position:center;
+  
+  background-size: cover;
+  height: 800px;
+  margin-left: -10px;
+  margin-right: -10px;
+  width: 1355px;;
+  margin-top: 10%;
+
+}
+.altra-box  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%
+}
+
+.fourteen{
+  
+  font-size: 65px;
+  align-items: center;
+  font-weight: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.para3 {
+  font-size: 30px;
+  color: #090808;
+  margin-top: -48px;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.picrers-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;  
+  margin: 5px;
+  margin-left: 0px;
+  margin-right: -20px;
+  margin-top: -10px;
+  justify-content: center;
+}
+
+
+.picter {
+  background-color: #bab8b8;
+  width: 49%;
+  height: 600px;
+  margin: 5px;
+  
+
+}
+
+.picrers-container  img {
+  align-items: center;
+  justify-content: center;
+  margin-left: 14px;
+  cursor: pointer;
+}
+  
+.picture{
+  display: flex;
+  border: 3px solid green;
+  height: 30%;
+  
+  justify-content: center;
+  width: 40%;
+  
+}
+
+#first {
+  background-image: url(./Assest/Capture\ 2.PNG);
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  /* border-style: outset; */
+
+}
+
+#second {
+background-color: #c0bebe;
+background-image: url(./Assest/Capture\ 3.PNG);
+background-size: cover;
+background-position: center;
+cursor: pointer;
+/* border-style:outset; */
+}
+#third {
+background-color: #c0bebe;
+background-image: url(./Assest/Capture\ 4.PNG);
+background-size: cover;
+background-position: center;
+cursor: pointer;
+/* border-style: outset; */
+}
+#four {
+  background-color: #9f9f9f;
+  background-image: url(./Assest/Capture\ 5.PNG) ;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  /* border-style: outset; */
+}
+
+#fifth{
+  background-color: #9f9f9f;
+  background-image: url(./Assest/spec3.jpg) ;
+  background-size: cover;
+  background-position: center;
+  
+  /* border-style: outset; */
+
+}
+
+#six {
+  background-color: #9f9f9f;
+  background-image: url(./Assest/last.PNG) ;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  /* border-style: outset; */
+}
+ .slider{
+  height: 600px;
+  
+  margin-left: -10px;
+  margin-right: -10px;
+  width: 100%;
+  background-image: url(./Assest/slid.PNG);
+
+ }
+
+ /* Vision Slider Code Here */
+ :hover.vision #film{
+  text-decoration-line: underline;
+   
+ }
+
+ button{
+  transition-property: background-color;
+  transition-duration: 2s; 
+
+ }
+
+ :hover.vision #event {
+  text-decoration-line: underline;
+  width: 299px;
+   
+ }
+
+ :hover.take-vision {
+  background-color: #0d0d0d;
+  color: white;
+  transition-property: backgroun-color;
+  transform: 1s;
+  
+ }
+
+/*  Meting white box */
+
+.methig{ 
+  height: 590px;
+  display: flex;
+  margin-top: 6%;
+  width: 101%;
+  margin-left: -7px;
+  background-color:white;
+}
+.metting-tex{
+  margin-left: 10%;
+  font-size: 30px;
+  flex-wrap: wrap ;
+  position: absolute;
+  margin-top:270px;
+  font-weight: 900 
+}
+
+ #more-connection{
+  background-color: orangered;
+  color:white;
+  border: none;
+  transition-property:Background-color  ;
+  transition-duration:1s; 
+}
+
+:hover #more-connection{
+  background-color:white;
+  color:black;
+  border: 2px solid orangered;
+}
+
+.theater-conntaner{
+  background-color: #1a0c99;
+  height: 600px;
+  width: 100%;
+  margin-left: -10px;
+  position: absolute;
+  margin-top: -40px;
+}
+ .footer-container{
+  background-color: #9f9f9f;
+  height: 1050px;
+  margin-left: -10px;
+  margin-right: -10px;
+  width: 102%;
+  margin-top:800px;
+  overflow: hidden;
+ }
+
+ .footer-seaction{
+  margin-left: 150px;
+  margin-right: 150px;
+  
+
+ }
+
+ .footer-para{
+  margin-bottom: 10px;
+ }
+
+ .footer-box  {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  justify-content: space-between;
+  list-style-type: none;
+  line-height: 40px;
+  
+  
+ }
+
+ .shop {
+    width: 200px;
+  
+ }
+
+ .account {
+    width: 200px;
+ }
+
+ .apple-store{
+    width: 200px;
+ }
+
+ .four-bussines{
+    width: 230px;
+ }
+
+ .values {
+   width: 200px;
+ }
+.fa-brands.fa-apple:hover {
+   color: #ffff;
+   font-size: 35px;
+   
+ }
+ 
+ 
+ .more-way {
+  margin-top: 250px;
+
+ }
+
+
+ .fa-sharp{
+  font-size: 30px;
+ }
+ .fa-solid {
+  font-size: 30px;
+
+ }
+
+
+ .buttom-tex{
+  width: 100%;
+  margin-top: -5px;
+
+ }
+
+ li :hover{
+  text-decoration: underline;
+ }
+
+ p a:hover {
+  text-decoration: underline;
+  color: rgb(29, 46, 239)
+
+ }
+
+ 
+ /* Closed Stylig futher updates   */
